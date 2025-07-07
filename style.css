@@ -1,0 +1,23 @@
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.clicked {
+    color: white;
+    background-color: blue;
+}

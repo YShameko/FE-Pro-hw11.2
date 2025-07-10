@@ -18,6 +18,5 @@ button {
 }
 
 .clicked {
-    color: white;
-    background-color: blue;
+    color: red;
 }

@@ -1,10 +1,11 @@
 "use strict";
 
 function handleClick() {
-    this.classList.toggle('clicked');
+    paragraph.classList.toggle('clicked');
 }  
 
 const ourButton = document.querySelector('button');
-if (ourButton) {
+const paragraph = document.querySelector('p');
+if (ourButton && paragraph) {
         ourButton.addEventListener('click', handleClick);
     } 
